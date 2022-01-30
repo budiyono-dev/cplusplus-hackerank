@@ -36,8 +36,20 @@ void nposInCpp(){
 	std::cout<<std::string::npos;	
 }
 
+void reverseCharUsingPointer(){
+	char nama[100];
+	printf("Masukan Nama : ");
+	gets(nama);
+	printf("%s\n", nama);
+}
+
+void reverChar(char *str){
+	
+}
+
 int main(int argc, char const *argv[])
 {
+	reverseCharUsingPointer();
 
 	return 0;
 }
